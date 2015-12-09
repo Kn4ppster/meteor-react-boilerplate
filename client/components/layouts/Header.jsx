@@ -20,7 +20,7 @@ Header = React.createClass({
 		if (currentUser) {
 			loginButton = (
 				<li>
-					<a href="#" onClick={ this.handleLogout }>Logout</a>
+					<span>{ currentUser.username }</span> <a href="#" onClick={ this.handleLogout }>Logout</a>
 				</li>
 			);
 		} else {

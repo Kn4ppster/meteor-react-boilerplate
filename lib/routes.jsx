@@ -12,6 +12,13 @@ FlowRouter.route('/login', {
 	}
 });
 
+FlowRouter.route('/register', {
+	name: 'Registration',
+	action(params) {
+		renderMainLayoutWith(<UserRegister />);
+	}
+});
+
 renderMainLayoutWith = function(component) {
 	ReactLayout.render(MainLayout, {
 		header: <Header />,

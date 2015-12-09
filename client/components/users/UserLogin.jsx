@@ -26,6 +26,8 @@ UserLogin = React.createClass({
 					<input type="password" name="password" placeholder="Password"/>
 					<input type="submit" value="Login"/>
 				</form>
+
+				<a href="/register">Register</a>
 			</div>
 		);
 	}
