@@ -1,0 +1,10 @@
+
+.panel {
+	padding: 40px 0;
+	position: relative;
+	background-color: #fff;
+
+	@include bp(lap) {
+		padding: 70px 0;
+	}
+}

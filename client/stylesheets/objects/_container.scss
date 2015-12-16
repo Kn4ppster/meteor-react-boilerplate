@@ -1,0 +1,15 @@
+
+.container {
+	@include cf();
+	display: block;
+	width: auto;
+	float: none;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: auto;
+
+	@include bp(lap) {
+		padding: 0 40px;
+		max-width: 1000px;
+	}
+}
